@@ -1,0 +1,17 @@
+{
+    "world": {
+        "state": [
+            "!Usable",
+            "!Initialized"
+        ],
+        "mode": "none"
+
+    },
+    "module": {
+        "state": [
+            "Usable"
+        ],
+        "error": "OK",
+        "No Pre-Loaded Objects": ""
+    }
+}
