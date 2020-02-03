@@ -1,0 +1,64 @@
+{
+    "server": {
+        "mode": "operational",
+        "version": [
+            "12.60.5",
+            "12.60.3",
+            "12.50.4",
+            "12.50.2",
+            "12.40.2",
+            "12.40.1"
+        ],
+        "remote server port": "9004"
+
+    },
+    "module": {
+        "mode": "operational",
+        "module type code": [
+            "5",
+            "7",
+            "12"
+        ],
+        "version": [
+
+            "12.60.2",
+            "12.50.11",
+            "12.50.8",
+            "12.50.7",
+            "12.50.4",
+            "12.50.2",
+            "12.40.2",
+            "11.72.02",
+            "3.4.2",
+            "2.61.2"
+        ],
+        "serial number": "",
+        "kneti hash": "",
+        "hardware status": "OK",
+        "max exported modules": "",
+        "active modes" : "",
+        "product name": [
+            "nC1003P/nC3023P/nC3033P",
+            "nC3025E/nC4035E/nC4335N",
+            "nC2023E/nC3423E/nC4033E",
+            "nC3025E/nC4035E/nC4035N"
+        ]
+    },
+    "nC1003P/nC3023P/nC3033P": [
+        "500+",
+        "1500+",
+        "6000+"
+    ],
+    "nC3025E/nC4035E/nC4335N": [
+        "500",
+        "1500",
+        "6000"
+    ],
+    "nC1003P/nC3023P/nC3033P": [
+        "XC Base",
+        "XC Mid",
+        "XC High"
+    ],
+    "nC2023E/nC3423E/nC4033E": "1500+"
+}
+
