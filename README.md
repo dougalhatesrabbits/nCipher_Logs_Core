@@ -4,10 +4,11 @@ Parses the either the named _nfdiag.txt_ or _nfdiag.zip_ log bundle summary file
 These files are themselves a parse of several log files compiled into a single file. 
 It is this file that is guaranteed to be received by customer support.
 
-`usage: nfdiag.py [-h] [-v] [-a [Days]] [-d] [-s] File
+`usage: nfdiag.py [-h] [-v] [-a [Days]] [-d] [-s] File`
 
 Cross platform nfdiag log parser
 
+```
 positional arguments:
   File                  <nfdiag-file>
 
@@ -17,7 +18,8 @@ optional arguments:
   -a [Days], --archive [Days]
                         Number of archive days to search
   -d, --debug           Debug logging level
-  -s, --statistics      Show historical statistics`
+  -s, --statistics      Show historical statistics
+```
 
 ###### **What are the benefits of this nfdiag tool**
 * Trawling through 60k lines of a 6Mb log file can be tedious to say the least.
