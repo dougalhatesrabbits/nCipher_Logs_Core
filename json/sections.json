@@ -1,0 +1,59 @@
+{
+    "env": [
+        "env-----",
+        "env type=RAW-----",
+        "env type=CSV-----",
+        "system-----"
+    ],
+    "enquiry": [
+        "enquiry-----",
+        "enquiry type=RAW-----",
+        "enquiry type=CSV-----"
+    ],
+    "stattree": [
+        "stattree-----",
+       "stattree type=RAW-----",
+        "stattree type=CSV-----"
+    ],
+    "nfkminfo": [
+        "nfkminfo-----",
+        "nfkminfo type=RAW-----",
+        "nfkminfo type=CSV-----"
+    ],
+    "fet": [
+        "fet-----",
+        "fet -type=RAW",
+        "fet -s-----"
+    ],
+    "lspci": [
+        "lspci-----",
+        "lspce type=RAW-----"
+    ],
+    "ls": [
+        "ls-----",
+        "ls type=RAW"
+    ],
+    "hardserver":[
+        "hardserver.log-----",
+        "hardserver.log type=RAW-----"
+    ],
+    "keysafe": [
+        "keysafe.log-----",
+        "keysafe.log type=RAW-----"
+    ],
+    "cmdadp": [
+        "cmdadp.log-----"
+    ],
+    "ncsnmpd": [
+        "ncsnmpd.log-----"
+    ],
+    "client_config": [
+        "config.log-----",
+        "config-----"
+    ],
+    "hsm_config": [
+        "/config/config.log-----",
+        "/config/config-----"
+    ]
+}
+
