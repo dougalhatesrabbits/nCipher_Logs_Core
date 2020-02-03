@@ -1,0 +1,139 @@
+{
+    "hardserver": {
+        "dict": [
+            "error",
+            "Error",
+            "ERROR",
+            "warning",
+            "Warning",
+            "WARNING",
+            "ServerAccessDenied",
+            "HostAccessDenied",
+            "executeDeferredPoolKeyDestroy",
+            "nCErrno(ENOENT): No such file or directory",
+            "UserCancelled",
+            "xFF",
+            "CrossModule"
+        ]
+    },
+    "keysafe": {
+        "dict": [
+            "fatal",
+            "error",
+            "warning"
+        ]
+    },
+    "stattree": {
+        "cpu": [
+            "CPULoadPercent",
+            "CPU2",
+            "CPU3",
+            "CPU4"
+            ],
+        "fan": [
+            "CurrentFanSpeed",
+            "CurrentFanRPM",
+            "CurrentFan2RPM",
+            "CurrentFan3RPM",
+            "CurrentFan4RPM",
+            "CurrentFanDuty"
+        ],
+        "temp": [
+            "CurrentCPUTemp1",
+            "CurrentCPUTemp2",
+            "TEMP3",
+            "TEMP4",
+            "MaxTempC",
+            "MinTempC"
+        ],
+        "mem": [
+            "MemTotal",
+            "MemAllocKernel",
+            "MemAllocUser"
+        ],
+        "globals": [
+            "ClientCount",
+            "MaxClients"
+        ],
+        "connections": [
+            "ClientProcessName"
+        ],
+        "load_threshold": 50,
+        "fan_threshold_high": 6500,
+        "fan_threshold_low": 3500,
+        "temp_threshold": 80
+    },
+    "fet": [
+        "CAN",
+        "HMBase",
+        "HMMid",
+        "ECC"
+    ],
+    "nfdiag": [
+        "Execution of 'find /opt/nfast -ls' failed 'exit with status 1'"
+    ],
+    "lspci": [
+        "Freescale Semiconductor"
+    ],
+    "snmp": [
+        "NET-SNMP version 5.7.3"
+    ],
+    "client config": [
+        "[server_settings]",
+        "[module_settings]",
+        "[server_remotecomms]",
+        "[server_remotecomms_ipv6]",
+        "[auditlog_settings]",
+        "[server_startup]",
+        "[server_performance]",
+        "[nethsm_imports]",
+        "[load_seemachine]",
+        "[slot_imports]",
+        "[slot_exports]",
+        "[dynamic_slot_timeouts]",
+        "[dynamic_slots]",
+        "[slot_mapping]",
+        "[remote_file_system]",
+        "[rfs_sync_client]",
+        "[remote_slot_imports]",
+        "[remote_administration_service_startup]"
+    ],
+    "hsm config": [
+        "[server_settings]",
+        "[module_settings]",
+        "[server_remotecomms]",
+        "[server_remotecomms_ipv6]",
+        "[auditlog_settings]",
+        "[server_startup]",
+        "[server_performance]",
+        "[nethsm_imports]",
+        "[load_seemachine]",
+        "[slot_imports]",
+        "[slot_exports]",
+        "[dynamic_slot_timeouts]",
+        "[dynamic_slots]",
+        "[slot_mapping]",
+        "[remote_file_system]",
+        "[rfs_sync_client]",
+        "[remote_administration_service_startup]",
+        "[nethsm_settings]",
+        "[cosmod]",
+        "[nethsm_eth]",
+        "[nethsm_eth_ipv6]",
+        "[nethsm_gateway]",
+        "[nethsm_gateway_ipv6]",
+        "[nethsm_route]",
+        "[nethsm_route_ipv6]",
+        "[nethsm_enable]",
+        "[nethsm_eth1_enable]",
+        "[hs_clients]",
+        "[hs_clients_ipv6]",
+        "[rfs_client]",
+        "[rfs_client_ipv6]",
+        "[sys_log]",
+        "[config_op]",
+        "[config_op_ipv6]",
+        "[ui_lockout]"
+    ]
+}
+
