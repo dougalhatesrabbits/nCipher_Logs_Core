@@ -1,7 +1,7 @@
 # nCipher_Logs
 
-Parses the either the named _nfdiag.txt_ or _nfdiag.zip_ log bundle summary file created from the nfdiag tool. 
-These files are themselves a parse of several log files compiled into a single file. 
+Parses the _nfdiag.txt/nfdiag.zip_ log bundle summary file created from the nfdiag tool. 
+This file is a collection of several log files compiled into a single summary file. 
 It is this file that is guaranteed to be received by customer support.
 
 `usage: nfdiag.py [-h] [-v] [-a [Days]] [-d] [-s] File`
